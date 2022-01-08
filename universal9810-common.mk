@@ -16,10 +16,6 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-endif
-
 # Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/platform-samsung.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/platform-samsung.xml \
@@ -65,10 +61,6 @@ PRODUCT_PACKAGES += \
     init.samsung.rc \
     init.usb_accessory.rc
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service.samsung-exynos
-
 # LPM
 PRODUCT_PACKAGES += \
     libsuspend
@@ -105,18 +97,6 @@ PRODUCT_PACKAGES += \
 # SamsungDoze
 PRODUCT_PACKAGES += \
     SamsungDoze
-
-# Touch
-PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.9810
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
-
-# FastCharge
-PRODUCT_PACKAGES += \
-    lineage.fastcharge@1.0-service.9810
 
 # Lights
 PRODUCT_PACKAGES += \
