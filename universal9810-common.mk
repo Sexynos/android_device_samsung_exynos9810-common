@@ -90,6 +90,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.recovery.samsungexynos9810.rc
 
+# RIL
+PRODUCT_PACKAGES += \
+    secril_config_svc
+
 # SamsungDoze
 PRODUCT_PACKAGES += \
     SamsungDoze
