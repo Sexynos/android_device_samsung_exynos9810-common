@@ -38,6 +38,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
 
+# RIL
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.fflag.override.settings_provider_model=false
+
 # Tones
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Orion.ogg \
