@@ -108,6 +108,13 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0.vendor \
     libkeymaster3device
 
+# libprotobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite \
+    libprotobuf-cpp-lite-vendorcompat
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.universal9810
