@@ -162,10 +162,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     secril_config_svc
 
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # Shims
 PRODUCT_PACKAGES += \
     libshim_sensorndkbridge
