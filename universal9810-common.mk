@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0.vendor \
     libkeymaster3device
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.universal9810
+
 # LPM
 PRODUCT_PACKAGES += \
     libsuspend
