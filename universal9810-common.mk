@@ -193,6 +193,7 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+    wifi_sec.rc \
     hostapd \
     wpa_supplicant \
     android.hardware.wifi@1.0 \
