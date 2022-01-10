@@ -187,6 +187,10 @@ PRODUCT_COPY_FILES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.1-service.typec
+
 # Property overrides
 -include $(LOCAL_PATH)/product_prop.mk
 
