@@ -106,6 +106,9 @@ WIFI_RESET_IFACE_AFTER_MAC_CHANGE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 PRODUCT_CFI_INCLUDE_PATHS += hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib
 
+# MACLOADER
+BOARD_HAVE_SAMSUNG_WIFI := true
+
 # Enable 64-bits binder
 TARGET_USES_64_BIT_BINDER := true
 
