@@ -196,6 +196,15 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.typec
 
+# Wifi
+PRODUCT_PACKAGES += \
+    wifi_sec.rc \
+    hostapd \
+    wpa_supplicant \
+    android.hardware.wifi@1.0 \
+    android.hardware.wifi@1.0-impl \
+    android.hardware.wifi@1.0-service
+
 # Property overrides
 -include $(LOCAL_PATH)/product_prop.mk
 
