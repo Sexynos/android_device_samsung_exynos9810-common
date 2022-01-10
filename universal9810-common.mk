@@ -172,6 +172,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     secril_config_svc
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.1-service.universal9810-multihal \
+    libsensorndkbridge
+
 # Shims
 PRODUCT_PACKAGES += \
     libshim_sensorndkbridge
